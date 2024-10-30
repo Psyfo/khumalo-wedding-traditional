@@ -1,8 +1,8 @@
-'use client';
-import Image from 'next/image';
-import React from 'react';
-import { motion } from 'framer-motion';
-import { useParallax } from 'react-scroll-parallax';
+"use client";
+import Image from "next/image";
+import React from "react";
+import { motion } from "framer-motion";
+import { useParallax } from "react-scroll-parallax";
 
 const Header = () => {
   // Animation variants for Framer Motion
@@ -82,7 +82,7 @@ const Header = () => {
           ref={textParallax.ref} // Applying the parallax effect
           className='text-[1.3rem] md:text-[1.5rem] text-white text-center font-canela font-thin mt-4'
         >
-          Are Getting Married, October 26, 2024
+          Traditional Ceremony, November 2, 2024
         </motion.p>
       </div>
     </div>
