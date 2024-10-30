@@ -1,8 +1,8 @@
-import 'swiper/swiper-bundle.css';
-import Image from 'next/image';
-import React from 'react';
-import { Navigation, Pagination } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import "swiper/swiper-bundle.css";
+import Image from "next/image";
+import React from "react";
+import { Navigation, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
@@ -11,26 +11,21 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 const DressGallery: React.FC = () => {
   // Array of different image sizes
   const images: any[] = [
-    { id: 1, src: '/images/dress/wed boho 1.jpg' },
-    { id: 2, src: '/images/dress/wed boho 2.jpg' },
-    { id: 3, src: '/images/dress/wed boho 3.jpg' },
-    { id: 4, src: '/images/dress/colour 1.jpg' },
-    { id: 5, src: '/images/dress/wed boho 4.jpg' },
-    { id: 6, src: '/images/dress/wed boho 5.jpg' },
-    { id: 7, src: '/images/dress/wed boho 6.jpg' },
-    { id: 8, src: '/images/dress/colour 2.jpg' },
-    { id: 9, src: '/images/dress/wed boho 7.jpg' },
-    { id: 10, src: '/images/dress/wed boho 8.jpg' },
-    { id: 11, src: '/images/dress/wed boho 9.jpg' },
-    { id: 12, src: '/images/dress/wed boho 10.jpg' },
-    { id: 13, src: '/images/dress/colour 3.jpg' },
-    { id: 14, src: '/images/dress/wed boho 11.jpg' },
-    { id: 15, src: '/images/dress/wed boho 12.jpg' },
-    { id: 16, src: '/images/dress/wed boho 13.jpg' },
-    { id: 17, src: '/images/dress/wed boho 14.jpg' },
-    { id: 18, src: '/images/dress/wed boho 15.jpg' },
-    { id: 19, src: '/images/dress/wed boho 16.jpg' },
-    { id: 20, src: '/images/dress/wed boho 17.jpg' },
+    { id: 1, src: '/images/dress/Trad photo 1.png' },
+    { id: 2, src: '/images/dress/Trad photo 2.png' },
+    { id: 3, src: '/images/dress/Trad photo 3.png' },
+    { id: 5, src: '/images/dress/Trad photo 4.png' },
+    { id: 6, src: '/images/dress/Trad photo 5.png' },
+    { id: 7, src: '/images/dress/Trad photo 6.png' },
+    { id: 9, src: '/images/dress/Trad photo 7.png' },
+    { id: 10, src: '/images/dress/Trad photo 8.png' },
+    { id: 11, src: '/images/dress/Trad photo 9.png' },
+    { id: 12, src: '/images/dress/Trad photo 10.png' },
+    { id: 14, src: '/images/dress/Trad photo 11.png' },
+    { id: 15, src: '/images/dress/Trad photo 12.png' },
+    { id: 16, src: '/images/dress/Trad photo 13.png' },
+    { id: 17, src: '/images/dress/Trad photo 14.png' },
+    { id: 18, src: '/images/dress/Trad photo 15.png' },
   ];
 
   return (
