@@ -37,7 +37,7 @@ const Dress: React.FC = () => {
           For inspiration, explore our Pinterest board to see potential looks:
         </p>
         <a
-          href='https://www.pinterest.com/lebonaamp/wedding-guest-boho-chic-autumn-meets-spring/'
+          href='https://pin.it/2pRajzcbP'
           target='_blank'
           rel='noopener noreferrer'
           className='text-orange-600 hover:text-orange-800 hover:underline transition-colors duration-300 text-[1.1rem]'
@@ -54,8 +54,7 @@ const Dress: React.FC = () => {
       {/* Additional Note */}
       <div className='font-calibri text-gray-500 text-center w-[90%] md:w-[60%] lg:w-[40%] leading-[1.75rem]'>
         <p className='text-[0.9rem] md:text-[1rem] text-gray-400 italic'>
-          NB: This Dress Code is a suggestion, please feel free to wear any
-          formal attire in which you feel most comfortable.
+          NB: Please feel free to wear any traditional attire.
         </p>
       </div>
     </section>
