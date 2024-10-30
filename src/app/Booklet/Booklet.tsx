@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
 const Booklet: React.FC = () => {
   return (
@@ -31,7 +31,7 @@ const Booklet: React.FC = () => {
         className='border border-gray-500 text-gray-500 hover:bg-orange-600 hover:text-white font-calibri text-[1.2rem] px-8 py-4 shadow-lg transition-all duration-300'
         onClick={() =>
           window.open(
-            '/uploads/Khumalo Wedding Pretoria - Mini Booklet v2.00.pdf',
+            '/uploads/Khumalo Wedding Traditional Mini Booklet v1.50.pdf',
             '_blank'
           )
         }
