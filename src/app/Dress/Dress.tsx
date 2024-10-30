@@ -1,7 +1,7 @@
-'use client';
-import DressGallery from './DressGallery/DressGallery';
-import Image from 'next/image';
-import React from 'react';
+"use client";
+import DressGallery from "./DressGallery/DressGallery";
+import Image from "next/image";
+import React from "react";
 
 const Dress: React.FC = () => {
   return (
@@ -24,15 +24,15 @@ const Dress: React.FC = () => {
       </div>
 
       {/* Dress Code Details */}
-      <div className='font-canela font-light text-gray-500 text-center w-[90%] md:w-[60%] lg:w-[40%] leading-[1.75rem] mb-[2rem]'>
+      <div className='font-calibri font-light text-gray-500 text-center w-[90%] md:w-[60%] lg:w-[40%] leading-[1.75rem] mb-[2rem]'>
         <p className='text-[1.2rem] md:text-[1.2rem]'>
           The suggested Wedding Dress Code is{' '}
-          <span className='font-bold'>Boho Chic / Autumn meets Spring</span>
+          <span className='font-bold'>Traditional</span>
         </p>
       </div>
 
       {/* Pinterest Link */}
-      <div className='font-calibri text-center mb-[2rem]'>
+      <div className='font-calibri text-center mb-[2rem] px-8'>
         <p className='text-[1rem] text-gray-600'>
           For inspiration, explore our Pinterest board to see potential looks:
         </p>
