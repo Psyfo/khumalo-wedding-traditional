@@ -1,12 +1,13 @@
-'use client';
-import Booklet from './Booklet/Booklet';
-import Dress from './Dress/Dress';
-import Footer from './Footer/Footer';
-import Header from './Header/Header';
-import Reception from './Reception/Reception';
-import Schedule from './Schedule/Schedule';
-import Synopsis from './Synopsis/Synopsis';
-import { ParallaxProvider } from 'react-scroll-parallax';
+"use client";
+import Accommodation from "./Accommodation/Accommodation";
+import Booklet from "./Booklet/Booklet";
+import Dress from "./Dress/Dress";
+import Footer from "./Footer/Footer";
+import Header from "./Header/Header";
+import Schedule from "./Schedule/Schedule";
+import Shuttle from "./Shuttle/Shuttle";
+import Synopsis from "./Synopsis/Synopsis";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 export default function Home() {
   return (
@@ -16,7 +17,8 @@ export default function Home() {
       </ParallaxProvider>
       <Synopsis />
       <Schedule />
-      <Reception />
+      <Accommodation />
+      <Shuttle />
       <Dress />
       <Booklet />
       <Footer />
